@@ -1,6 +1,6 @@
 import { FaBookmark } from 'react-icons/fa';
 
-const Blog = ({ blog, handleAddToBookmark }) => {
+const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
     const {title,cover_photo,author,author_img,posted_date, reading_time,hashTags } = blog;
     return (
         <div className="border-b border-[#1111111A] py-6">
@@ -19,7 +19,10 @@ const Blog = ({ blog, handleAddToBookmark }) => {
                 </div>
                 <div className='flex items-center text-[#11111199]'>
                     <p className='mr-3'>{reading_time} min read</p>
-                    <button onClick={() => handleAddToBookmark(blog)} className=''><FaBookmark /></button>
+                    <button onClick={() =>
+                        handleAddToBookmark(blog)}
+                        className='cursor-pointer'
+                    ><FaBookmark /></button>
                 </div>
             </div>
             <h1 className="text-4xl font-bold my-3"> {title}</h1>
@@ -31,7 +34,7 @@ const Blog = ({ blog, handleAddToBookmark }) => {
                 }
             </div>
 
-             <p href=""><span className="text-[#6047EC] font-semibold underline text-base ">Mark As Read</span></p>
+             <p href=""><span onClick={() => handleMarkAsRead(reading_time)} className="text-[#6047EC] font-semibold underline text-base ">Mark As Read</span></p>
                 
         </div>
     );
