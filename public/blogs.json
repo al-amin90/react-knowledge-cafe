@@ -1,0 +1,58 @@
+[
+    {
+        "id": "001",
+        "cover_photo": "https://i.postimg.cc/DZSh8VzT/1.jpg",
+        "title": "Top ES6 Features You Must Know",
+        "author": "Jane Doe",
+        "author_img": "https://i.postimg.cc/Y0h9gp62/boy1.png",
+        "posted_date": "2024-03-13",
+        "reading_time": 25,
+        "hashTags": [
+            "fiction",
+            "nature",
+            "mystery"
+        ]
+    },
+    {
+        "id": "002",
+        "cover_photo": "https://i.postimg.cc/T2m8SJLC/2.png",
+        "title": "JavaScript Object for Absolute Beginners: A Fun Introduction",
+        "author": "John Smith",
+        "author_img": "https://i.postimg.cc/g2N2MXgc/boy2.jpg",
+        "posted_date": "2024-03-12",
+        "reading_time": 30,
+        "hashTags": [
+            "adventure",
+            "exploration",
+            "discovery"
+        ]
+    },
+    {
+        "id": "003",
+        "cover_photo": "https://i.postimg.cc/FzcQVjcC/3.png",
+        "title": "Echoes of Eternity",
+        "author": "Emily Johnson",
+        "author_img": "https://i.postimg.cc/g2SGy90n/girl1.jpg",
+        "posted_date": "2024-03-11",
+        "reading_time": 20,
+        "hashTags": [
+            "poetry",
+            "reflection",
+            "philosophy"
+        ]
+    },
+    {
+        "id": "004",
+        "cover_photo": "https://i.postimg.cc/85xSvyFr/4.jpg",
+        "title": "City of Dreams",
+        "author": "Michael Brown",
+        "author_img": "https://i.postimg.cc/T2gn3xdj/girl2.jpg",
+        "posted_date": "2024-03-10",
+        "reading_time": 40,
+        "hashTags": [
+            "urban",
+            "society",
+            "dreams"
+        ]
+    }
+]
